@@ -1,0 +1,28 @@
+server:
+  port: 1025 # 服务注册中心端口号
+
+spring:
+  application:
+    name: pig-eureka-server
+
+security:
+  basic:
+    enabled: true # 启用身份认证
+  user:
+    name: pig # 定义用户名
+    password: gip6666 # 定义密码
+
+eureka:
+  client:
+    fetch-registry: false #是否检索服务
+    register-with-eureka: false #是否向服务注册中心注册自己
+    serviceUrl:
+          defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #服务注册中心的配置内容，指定服务注册中心的位置
+    healthcheck:
+          enabled: true #通过spring-boot-acturator模块的/health端点来实现检查
+  instance:
+    hostname: localhost #服务注册中心实例的主机名
+
+    server:
+    enableSelfPreservation: false #确保注册中心将不可用的实例删除
+

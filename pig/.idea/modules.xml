@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pig.iml" filepath="$PROJECT_DIR$/pig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-admin-service/pig-admin-service.iml" filepath="$PROJECT_DIR$/pig-admin-service/pig-admin-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-auth-service/pig-auth-service.iml" filepath="$PROJECT_DIR$/pig-auth-service/pig-auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-common/pig-common.iml" filepath="$PROJECT_DIR$/pig-common/pig-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-config/pig-config.iml" filepath="$PROJECT_DIR$/pig-config/pig-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-eureka/pig-eureka.iml" filepath="$PROJECT_DIR$/pig-eureka/pig-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-gateway/pig-gateway.iml" filepath="$PROJECT_DIR$/pig-gateway/pig-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-monitor/pig-monitor.iml" filepath="$PROJECT_DIR$/pig-monitor/pig-monitor.iml" />
+    </modules>
+  </component>
+</project>

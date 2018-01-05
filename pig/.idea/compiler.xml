@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pig-admin-service" />
+        <module name="pig-auth-service" />
+        <module name="pig-common" />
+        <module name="pig-config" />
+        <module name="pig-eureka" />
+        <module name="pig-gateway" />
+        <module name="pig-monitor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pig" target="1.8" />
+      <module name="pig-admin-service" target="1.8" />
+      <module name="pig-auth-service" target="1.8" />
+      <module name="pig-common" target="1.8" />
+      <module name="pig-config" target="1.8" />
+      <module name="pig-eureka" target="1.8" />
+      <module name="pig-gateway" target="1.8" />
+      <module name="pig-monitor" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
